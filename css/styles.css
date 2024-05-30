@@ -130,11 +130,11 @@ sup {
   top: -.5em; }
 
 a {
-  color: #ffffff;
+  color: #4e4b61;
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #d9d9d9;
+    color: #4e4b61;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -1152,12 +1152,14 @@ pre {
 .table td {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 0.125rem solid #dee2e6; }
-  .table thead th {
+    border-top: 0.125rem solid #dee2e6;
+    border-bottom: 0.125rem solid #dee2e6; }
+/*  .table thead th {
     vertical-align: bottom;
     border-bottom: 0.25rem solid #dee2e6; }
   .table tbody + tbody {
     border-top: 0.25rem solid #dee2e6; }
+*/
 
 .table-sm th,
 .table-sm td {
@@ -7261,10 +7263,10 @@ h3 {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fff;
+      color: #4e4b61;
       background: #ffffff; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-        color: #fff;
+        color: #4e4b61;
         background: #ffffff; }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
